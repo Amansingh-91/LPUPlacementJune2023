@@ -1,10 +1,9 @@
 import React from "react";
 import ReactDOM  from "react-dom/client";
 
-// import BookList from "./components/booklist";
-import Todo from "./components/Todo";
-import EventListenerDemo from "./components/EventListenersDemo";
-import ConditionalRendering from "./components/ConditionalRendering";
+import {BrowserRouter} from 'react-router-dom';
+import App from "./App";
+
 //external css
 import "./index.css" ;
 
@@ -45,4 +44,8 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 
 // props or properties / parameters 
 
-root.render(<ConditionalRendering/>);
+root.render(
+    
+        <App/>
+    
+);

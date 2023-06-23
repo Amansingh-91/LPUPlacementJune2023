@@ -7,8 +7,8 @@ const ConditionalRendering = () => {
   return (
 
     <div>
-        <h1>{isLoggedIn || login}</h1>
-        <h1>{!isLoggedIn || logout}</h1>
+        {/* <h1>{isLoggedIn || login}</h1>
+        <h1>{!isLoggedIn || logout}</h1> */}
         {/* <h1>{isLoggedIn && login}</h1>
         <h1>{!isLoggedIn && logout}</h1> */}
         {/* <h1>{isLoggedIn?logout:login}</h1> */}
