@@ -4,6 +4,9 @@ import ReactDOM  from "react-dom/client";
 import {BrowserRouter} from 'react-router-dom';
 import App from "./App";
 
+import store from "./store";
+import {Provider} from "react-redux";
+
 //external css
 import "./index.css" ;
 
@@ -45,7 +48,8 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 // props or properties / parameters 
 
 root.render(
-    
-        <App/>
-    
+        <Provider store={store}>
+          <App/>      
+        </Provider>
+           
 );

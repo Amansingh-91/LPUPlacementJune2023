@@ -1,0 +1,8 @@
+div{
+  display: grid;
+  margin: 50px;
+  width: 90vw;
+  height: 100%;
+  justify-content: center;
+  align-content: center;
+}
